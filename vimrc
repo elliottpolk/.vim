@@ -58,7 +58,7 @@ command! -nargs=* -complete=help Help vertical belowright help <args>
 autocmd FileType help wincmd L
 
 " Make Vim to handle long lines nicely.
-set wrap
+set nowrap
 set textwidth=79
 set formatoptions=qrn1
 "set colorcolumn=79
