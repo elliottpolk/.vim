@@ -64,9 +64,6 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
-[submodule "bundle/vim-airline-themes"]
-	path = bundle/vim-airline-themes
-	url = https://github.com/vim-airline/vim-airline-themes.git
 [submodule "bundle/linuxsty.vim"]
 	path = bundle/linuxsty.vim
 	url = https://github.com/vivien/vim-linux-coding-style.git
@@ -110,3 +107,18 @@
 	path = bundle/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
 	branch = release
+[submodule "bundle/vim-nerdtree-syntax-highlight"]
+	path = bundle/vim-nerdtree-syntax-highlight
+	url = https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
+[submodule "colors/plastic.vim"]
+	path = colors/plastic.vim
+	url = https://github.com/flrnd/plastic.vim.git
+[submodule "bundle/vim-pink-moon"]
+	path = bundle/vim-pink-moon
+	url = https://github.com/sts10/vim-pink-moon.git
+[submodule "bundle/vim-vitamin-onec"]
+	path = bundle/vim-vitamin-onec
+	url = https://github.com/gkapfham/vim-vitamin-onec.git
+[submodule "bundle/vim-quantum"]
+	path = bundle/vim-quantum
+	url = https://github.com/tyrannicaltoucan/vim-quantum.git
