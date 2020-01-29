@@ -181,8 +181,11 @@ set termguicolors
 " colorscheme solarized
 set guifont=Inconsolata:h15
 
-colorscheme vitaminonec
-let g:lightline = { 'colorscheme': 'vitaminonec' }
+" colorscheme vitaminonec
+" let g:lightline = { 'colorscheme': 'vitaminonec' }
+
+colorscheme base16-google-dark
+let g:lightline = { 'colorscheme': 'base16-google-dark' }
 set guioptions-=L
 
 " This comes first, because we have mappings that depend on leader
@@ -573,7 +576,8 @@ let g:vim_markdown_json_frontmatter = 1
 " =================== vim-airline ========================
 
 " let g:airline_theme='solarized'
-let g:airline_theme="base16_google"
+" let g:airline_theme="base16_google"
+let g:airline_theme="base16"
 
 " set to use powerline fonts when not in a ssh session
 let g:remoteSession = ($STY == "")
