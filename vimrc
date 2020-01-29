@@ -364,6 +364,18 @@ au BufRead,BufNewFile *.workflow set ft=hcl
 " mips settings
 au BufRead,BufNewFile *.mips set ft=mips
 
+" Binary settings: edit binary using xxd-format
+augroup Binary
+  au!
+  au BufReadPre  *.bin let &bin=1
+  au BufReadPost *.bin if &bin | %!xxd
+  au BufReadPost *.bin set ft=xxd | endif
+  au BufWritePre *.bin if &bin | %!xxd -r
+  au BufWritePre *.bin endif
+  au BufWritePost *.bin if &bin | %!xxd
+  au BufWritePost *.bin set nomod | endif
+augroup END
+
 " spell check for git commits
 autocmd FileType gitcommit setlocal spell
 
@@ -543,6 +555,7 @@ let g:vim_markdown_toc_autofit = 1
 
 " Disable conceal
 let g:vim_markdown_conceal = 0
+let g:vim_markdown_conceal_code_blocks = 0
 
 " Allow the ge command to follow named anchors in links of the form
 " file#anchor or just #anchor, where file may omit the .md extension as usual
