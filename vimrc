@@ -173,12 +173,16 @@ if has('gui_running')
   syntax enable
 endif
 set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
+set termguicolors
+" let g:solarized_termcolors=256
+" let g:solarized_termtrans=1
 " let g:hybrid_use_Xresources = 1
 " let g:rehash256 = 1
-colorscheme solarized
+" colorscheme solarized
 set guifont=Inconsolata:h15
+
+colorscheme vitaminonec
+let g:lightline = { 'colorscheme': 'vitaminonec' }
 set guioptions-=L
 
 " This comes first, because we have mappings that depend on leader
@@ -568,7 +572,8 @@ let g:vim_markdown_json_frontmatter = 1
 
 " =================== vim-airline ========================
 
-let g:airline_theme='solarized'
+" let g:airline_theme='solarized'
+let g:airline_theme="base16_google"
 
 " set to use powerline fonts when not in a ssh session
 let g:remoteSession = ($STY == "")
