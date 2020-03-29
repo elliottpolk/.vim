@@ -122,3 +122,6 @@
 [submodule "bundle/vim-quantum"]
 	path = bundle/vim-quantum
 	url = https://github.com/tyrannicaltoucan/vim-quantum.git
+[submodule "bundle/vim-banana-blueberry"]
+	path = bundle/vim-banana-blueberry
+	url = git@github.com:elliottpolk/vim-banana-blueberry.git
