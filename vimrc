@@ -185,8 +185,12 @@ set guifont=Inconsolata:h15
 " colorscheme vitaminonec
 " let g:lightline = { 'colorscheme': 'vitaminonec' }
 
-colorscheme base16-google-dark
-let g:lightline = { 'colorscheme': 'base16-google-dark' }
+" colorscheme base16-google-dark
+" let g:lightline = { 'colorscheme': 'base16-google-dark' }
+
+colorscheme banana-blueberry
+let g:lightline = { 'colorscheme': 'banana-blueberry' }
+
 set guioptions-=L
 
 " This comes first, because we have mappings that depend on leader
