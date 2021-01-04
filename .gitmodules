@@ -43,9 +43,6 @@
 [submodule "bundle/vim-bbye"]
 	path = bundle/vim-bbye
 	url = https://github.com/moll/vim-bbye.git
-[submodule "bundle/vim-sayonara"]
-	path = bundle/vim-sayonara
-	url = https://github.com/mhinz/vim-sayonara.git
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
@@ -85,9 +82,6 @@
 [submodule "bundle/vim-sensible"]
 	path = bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
-[submodule "bundle/nginx.vim"]
-	path = bundle/nginx.vim
-	url = https://github.com/chr4/nginx.vim.git
 [submodule "bundle/vim-git"]
 	path = bundle/vim-git
 	url = https://github.com/tpope/vim-git.git
@@ -119,9 +113,6 @@
 [submodule "bundle/vim-pink-moon"]
 	path = bundle/vim-pink-moon
 	url = https://github.com/sts10/vim-pink-moon.git
-[submodule "bundle/vim-vitamin-onec"]
-	path = bundle/vim-vitamin-onec
-	url = https://github.com/gkapfham/vim-vitamin-onec.git
 [submodule "bundle/vim-quantum"]
 	path = bundle/vim-quantum
 	url = https://github.com/tyrannicaltoucan/vim-quantum.git
