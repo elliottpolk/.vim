@@ -122,6 +122,6 @@
 [submodule "bundle/vim-svelte"]
 	path = bundle/vim-svelte
 	url = https://github.com/evanleck/vim-svelte.git
-[submodule "bundle/Jenkinsfile-vim-syntax"]
-	path = bundle/Jenkinsfile-vim-syntax
-	url = https://github.com/martinda/Jenkinsfile-vim-syntax.git
+[submodule "bundle/vim-sayonara"]
+	path = bundle/vim-sayonara
+	url = https://github.com/mhinz/vim-sayonara.git
